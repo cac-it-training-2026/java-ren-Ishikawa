@@ -8,7 +8,9 @@ public class Question03_1 {
 
 	public static void main(String[] args) {
 
-		// TODO:ここに実装
-		
+		int price = 30;
+		int tortalBudget = 300;
+		int quantity = (tortalBudget / price);
+		System.out.println("商品の購入数は" + quantity + "個です。");
 	}
 }
